@@ -19,6 +19,17 @@ dotenv.config();
 
 const app = express();
 
+
+app.use(
+  cors({
+    origin: [
+      "http://localhost:5000",
+      "https://aj-infoteck-4sl7xsmtv-arul-guru-prakashs-projects-dc580452.vercel.app"
+    ],
+    credentials: true
+  })
+);
+
 app.use(cors());
 app.use(express.json());
 
