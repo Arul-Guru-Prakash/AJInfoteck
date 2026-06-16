@@ -2,7 +2,7 @@ import express from "express";
 import {
   updateCareersPage,
   getCareersPage
-} from "../controllers/careersController.js";
+} from "../controllers/CareersController.js";
 
 const router = express.Router();
 
