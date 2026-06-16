@@ -12,7 +12,7 @@ import aboutRoutes from "./routes/AboutRoutes.js";
 import careersRoutes from "./routes/CareersRoutes.js";
 import footerRoutes from "./routes/FooterRoutes.js";
 import contactRoutes from "./routes/ContactRoutes.js";
-import mail from "./routes/Mail.js";
+import mail from "./routes/mail.js";
 
 
 dotenv.config();
